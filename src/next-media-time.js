@@ -8,7 +8,7 @@
   var NxMediaTime = nx.declare('nx.MediaTime', {
     statics: {
       format: function(inTime, inOptions) {
-        var options = nx.mix(null, DEFAULT_OPTIONS, inOptons);
+        var options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
         if (inTime) {
           var formatTime = nxTimeformat(inTime * 1e3);
           var _minute = nxPadStart(formatTime.minute, 2, '0');
