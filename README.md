@@ -7,9 +7,9 @@ npm install -S afeiship/next-media-time --registry=https://registry.npm.taobao.o
 ```
 
 ## apis
-| api | params | description   |
-|-----|--------|---------------|
-| get | -      | desc balabala |
+| api    | params   | description                           |
+| ------ | -------- | ------------------------------------- |
+| format | (inTime) | format audio/video current/total time |
 
 ## usage
 ```js
@@ -17,6 +17,3 @@ import NxMediaTime from 'next-media-time';
 
 // code goes here:
 ```
-
-## resources
-- https://github.com/afeiship
